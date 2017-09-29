@@ -464,6 +464,13 @@ babel-helpers@7.0.0-alpha.18:
   dependencies:
     babel-template "7.0.0-alpha.18"
 
+babel-helpers@^6.24.1:
+  version "6.24.1"
+  resolved "http://storage.mds.yandex.net/get-npm/66641/babel-helpers-6.24.1.tgz#3471de9caec388e5c850e597e58a26ddf37602b2"
+  dependencies:
+    babel-runtime "^6.22.0"
+    babel-template "^6.24.1"
+
 babel-messages@7.0.0-alpha.15:
   version "7.0.0-alpha.15"
   resolved "https://registry.yarnpkg.com/babel-messages/-/babel-messages-7.0.0-alpha.15.tgz#97991d32d86a2130aff08fa75a16cfc5acad9e42"
@@ -924,7 +931,7 @@ babel-template@7.0.0-alpha.18:
     babylon "7.0.0-beta.18"
     lodash "^4.2.0"
 
-babel-template@^6.16.0:
+babel-template@^6.16.0, babel-template@^6.24.1:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-template/-/babel-template-6.26.0.tgz#de03e2d16396b069f46dd9fff8521fb1a0e35e02"
   dependencies:
@@ -1017,9 +1024,9 @@ babylon@7.0.0-beta.18:
   version "7.0.0-beta.18"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-7.0.0-beta.18.tgz#5c23ee3fdb66358aabf3789779319c5b78a233c7"
 
-babylon@7.0.0-beta.25:
-  version "7.0.0-beta.25"
-  resolved "https://registry.yarnpkg.com/babylon/-/babylon-7.0.0-beta.25.tgz#5fff5062b7082203b1bc5cab488e154cfee0202a"
+babylon@7.0.0-beta.26:
+  version "7.0.0-beta.26"
+  resolved "http://storage.mds.yandex.net/get-npm/38095/babylon-7.0.0-beta.26.tgz#afc2c6b86113d000cc9476fd6f73e2a9223de8f7"
 
 babylon@^6.17.4, babylon@^6.18.0:
   version "6.18.0"

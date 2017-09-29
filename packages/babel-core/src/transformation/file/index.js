@@ -206,6 +206,13 @@ export default class File extends Store {
     }
 
     const ownBindingNames = Object.keys(this.scope.getAllBindings());
+
+    const defaultUid = this.scope._generateUid(name);
+
+    if (ownBindingNames.includes(defaultUid)) {
+      return this.scope.getBinding(defaultUid).path.node.id;
+    }
+
     const uid = (this.declarations[name] = this.scope.generateUidIdentifier(
       name,
     ));
